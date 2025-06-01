@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "delegates",
+  "info": {
+    "singularName": "delegate",
+    "pluralName": "delegates",
+    "displayName": "Delegate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Designation": {
+      "type": "string",
+      "required": true
+    },
+    "Affiliation": {
+      "type": "string",
+      "required": true
+    },
+    "Role": {
+      "type": "enumeration",
+      "enum": [
+        "Chief Patron",
+        "Patron",
+        "Organizing Chair",
+        "Program Chair",
+        "General Chair",
+        "Track Chair",
+        "Publicity Chair",
+        "Web Chair",
+        "Finance Chair",
+        "Publication Chair",
+        "Local Organizer",
+        "Joint-Organizing Chair",
+        "Volunteer",
+        "Author",
+        "Presenter",
+        "Technical Program Committee",
+        "Technical Reviewer",
+        "Speaker",
+        "Delegate"
+      ]
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

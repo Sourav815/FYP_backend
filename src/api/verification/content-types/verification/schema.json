@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verifications",
+  "info": {
+    "singularName": "verification",
+    "pluralName": "verifications",
+    "displayName": "Verification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Role": {
+      "type": "string",
+      "required": true
+    },
+    "Affiliation": {
+      "type": "string",
+      "required": true
+    },
+    "Conference_Name": {
+      "type": "string",
+      "required": false
+    },
+    "Year": {
+      "type": "string",
+      "required": true
+    },
+    "Purpose": {
+      "type": "string",
+      "required": true
+    },
+    "Certificate_Id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
